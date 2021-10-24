@@ -10,5 +10,4 @@
         android:id="@+id/word"
         style="@style/word_title" />
 
-
 </LinearLayout>

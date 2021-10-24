@@ -1,14 +1,18 @@
 package com.example.recyclerview;
 
+/* -- IMPORTS -- */
+// android
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+// androidx
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+// java
 import java.util.LinkedList;
 
 public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordViewHolder>  {
@@ -45,6 +49,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
 
         public final TextView wordItemView;
         final WordListAdapter mAdapter;
+
 
         public WordViewHolder(View itemView, WordListAdapter adapter) {
             super(itemView);
